@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a3f8e3;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.btn {
+    float: right;
+    font-weight:bolder;
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    width: auto;
+    height: 30px;
+}

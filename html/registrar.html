@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro de Mascotas</h1>
+    <div class="container">
+        <form class="inicio" action="../_servicios/create.php" method="post">
+            <label for="nombre">NOMBRE DE LA MASCOTA:</label>
+			<input type="text" name="nom_mas" required>
+
+			<label for="dueño">DUEÑO:</label>
+			<input type="text" name="nom_due" required>
+
+			<label for="edad">EDAD:</label>
+			<input type="text" name="edad_mas" required>
+
+			<label for="genero">GENERO:</label><br>
+			<input type="text" name="gen_mas" required>
+
+            <label for="raza">RAZA:</label>
+			<input type="text" name="raza_mas" required>
+
+            <label for="tamaño">TAMAÑO:</label>
+			<input type="text" name="tamaño_mas" required>
+
+            <label for="motivo">MOTIVO:</label>
+			<input type="text" name="motivo" required>
+            <input class="btn" type="submit" value="Registrar">
+        </form>
+    </div>
+</body>
+</html>

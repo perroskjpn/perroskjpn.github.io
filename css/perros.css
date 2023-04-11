@@ -1,0 +1,38 @@
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.tabla{
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+    border: 2px black solid;
+}
+
+.tabla thead{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.tabla tbody{
+    background-color: white;
+    
+}
+.editar{
+    text-decoration: none;
+    color: #4bb11c;
+}
+.eliminar{
+    text-decoration: none;
+    color: #aa240c;
+}
+.bm {
+    margin-left: 13%;
+    border-radius: 50%;
+    font-weight:bolder;
+    background-color: #494646;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    width: auto;
+}
